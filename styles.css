@@ -1,0 +1,203 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+html {
+    font-size: 16px;
+    background-color: #ffc3b79a;;
+}
+
+.comfortaa-<uniquifier> {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar p {
+    text-decoration: none;
+    font-size: 2rem;
+    text-shadow: 5px 8px 2px #CECECE;
+    color: black
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+  text-decoration: underline;  
+}
+
+.mission .content h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Playfair Display";
+}
+
+.mission .content h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.625rem;
+    font-family: "Playfair Display";
+}
+
+.mission{
+    background-image: url(https://plus.unsplash.com/premium_photo-1685366454581-796f5fc832c6?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    height: 300px;
+    padding-top: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E6DBD0;
+}
+
+.mission .content {
+ background-color: #E6DBD0;
+ margin: auto;
+ width: 100%;
+
+}
+
+#items {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item img{
+  width: 100%;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.item span {
+font-family: "Playfair Display";
+padding: 5px;
+font-weight: bold;
+font-size: 1.5rem;
+min-width: 240px;
+text-align: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#team h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 70px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.team .teamate img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 500px;
+    box-shadow: 7px 12px 17px 3px #000000;
+}
+
+.teamate h3{
+    font-size: 2rem;
+    font-family: "Playfair Display"
+}
+
+.teamate p{
+   font-size: 1.5rem;
+
+}
+
+
+@media only screen and (max-width: 480px ) {
+ .mission {
+    background-image: none;
+
+ }
+ .team {
+    flex-wrap: wrap;
+ }
+
+ a {
+    text-decoration: underline;
+ }
+
+ a:hover {
+    text-decoration: none;
+ }
+
+ .navbar {
+    text-align: center;
+ }
+ 
+ h1 {
+    text-align: center;
+    margin-left: 50px;
+ }
+
+ 
+}
+
+.info {
+    text-align: center;
+     font-family: "Playfair Display";
+     padding-bottom: 5px;
+     background-color: #E6DBD0;
+}
+
+.info h2 {
+    font-size: 3rem;
+   
+}
+
+.info h5 {
+    font-size: 1.5rem;
+}
+
+.info p{
+    text-align: left;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 1200px) {
+    .team {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
